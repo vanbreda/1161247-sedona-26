@@ -101,21 +101,25 @@
         <form class="search" action="#" method="get">
           <p>
             <label for="arrival-date">Дата заезда:</label>
-            <input id="arrival-date" type="date" name="arrival" placeholder="24 апреля 2017">
+            <input id="arrival-date" type="date" name="arrival" value="24 апреля 2017">
             <span><img src="img/calendar.svg" alt="Открываем календарь для даты заезда" </span>
           </p>
           <p>
             <label for="chekout-date">Дата выезда:</label>
-            <input id="checkout-date" type="date" name="checkout" placeholder="4 июля 2017">
+            <input id="checkout-date" type="date" name="checkout" value="4 июля 2017">
             <span><img src="img/calendar.svg" alt="Открываем календарь для даты выезда" </span>
           </p>
           <p>
             <label for="adults">Взрослые:</label>
-            <input id="adults" type="range" min="1" max="10" step="1" name="children" value="2">
+            <button type="button">-</button>
+            <input id="adults" type="number" min="1" max="10" step="1" name="adults" value="2">
+            <button type="button">+</button>
           </p>
           <p>
             <label for="children">Дети:</label>
-            <input id="children" type="range" min="0" max="10" step="1" name="children" value="0">
+            <button type="button">-</button>
+            <input id="children" type="number" min="0" max="10" step="1" name="children" value="0">
+            <button type="button">+</button>
           </p>
 
           <button type="submit" class="blue-button">Найти
