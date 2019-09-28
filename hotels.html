@@ -12,7 +12,6 @@
 <body>
   <div>
     <header>
-
       <nav>
         <a href="index.html">
           <img src="img/logo.svg" width="140" height="71" alt="Логотип City of Sedona">
@@ -24,65 +23,70 @@
           <li>Гостиницы</li>
         </ul>
       </nav>
-
     </header>
+
     <main>
-
       <h1 class="visually-hidden">Поиск отеля</h1>
-
       <section>
-        <!---Здесь будет форма для сортировки
-      <img src="" width=""  height="" alt="Размытое изображение">
-
-      <p>
-        Инфраструктура
-      </p>
-      <ul>
-        <li>
-          <img src="" width="" height="" alt="Выбор опции Бассейн" />
-          Бассейн
-        </li>
-        <li>
-          <img src="" width="" height="" alt="Выбор опции Парковка" />
-          Парковка
-        </li>
-        <li>
-          <img src="" width="" height="" alt="Выбор опции Wi-Fi" />
-          Wi-Fi
-        </li>
-      </ul>
-    <p>
-      Тип жилья
-    </p>
-      <ul>
-        <li>
-          <img src="" width="" height="" alt="Выбор опции Гостиница" />
-          Гостиница
-        </li>
-        <li>
-          <img src="" width="" height="" alt="Выбор опции Мотель" />
-          Мотель
-        </li>
-        <li>
-          <img src="" width="" height="" alt="Выбор опции Апартаменты" />
-          Апартаменты
-        </li>
-      </ul>
- --->
-        <p>
-          Стоимость в сутки (Р):
-        </p>
-        <!---Здесь будет форма для сортировки --->
-        <button type="button" class="form-button">Показать</button>
+        <h2 class="visually-hidden">Выбор критериев для поиска отеля</h2>
+        <img src="img/filter-background.png" width="1200" height="562" alt="Размытое изображение Седоны под фильтром">
+        <form action="#" method="get">
+          <fieldset>
+            <legend>
+              Инфраструктура:
+            </legend>
+            <ul>
+              <li>
+                <input type="checkbox" name="pool">Бассейн
+              </li>
+              <li>
+                <input type="checkbox" name="parking">Парковка
+              </li>
+              <li>
+                <input type="checkbox" name="wi-fi">Wi-Fi
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>
+              Тип жилья:
+            </legend>
+            <ul>
+              <li>
+                <input type="checkbox" name="hotel">Гостиница
+              </li>
+              <li>
+                <input type="checkbox" name="motel">Мотель
+              </li>
+              <li>
+                <input type="checkbox" name="apartments">Апартаменты
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>
+              Стоимость в сутки (Р):
+            </legend>
+            <p>
+              от 0
+            </p>
+            <p>
+              до 3000
+            </p>
+            <input type="range" min="0" max="3000" step="100" name="price_range">
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
       </section>
-
       <section>
-        <!---Здесь будет форма для сортировки
+        <h2 class="visually-hidden">Сортировка результатов отбора отеля</h2>
+        <!-- Здесь будет форма для сортировки
     <p>Найдено:</p>
     <p> 3</p>
---->
+-->
       </section>
       <section>
+        <h2 class="visually-hidden">Результаты отбора отеля</h2>
         <ul>
           <li>
             <h2>Amara resort & spa</h2>
@@ -127,10 +131,8 @@
             <p class="rating-back">Рейтинг: 9,2</p>
           </li>
         </ul>
-
       </section>
     </main>
-
     <footer>
       <p class="VISITSEDONA">#VISITSEDONA</p>
       <ul class="social-buttons">
@@ -160,9 +162,7 @@
         </p>
       </section>
     </footer>
-
   </div>
-
 </body>
 
 </html>
