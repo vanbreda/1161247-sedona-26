@@ -10,13 +10,14 @@
 </head>
 
 <body>
-  <div>
+  <div class="container">
+
     <header>
-      <nav>
-        <a>
+      <nav class="main-navigation">
+        <a class="main-header-logo">
           <img src="img/logo.svg" width="140" height="71" alt="Логотип City of Sedona">
         </a>
-        <ul>
+        <ul class="site-navigation">
           <li class="navigation-links">Информация</li> <!-- не является ссылкой -->
           <li class="navigation-links"><a href="#">Фото и видео</a></li>
           <li class="navigation-links"><a href="#">Карта штата</a></li>
@@ -33,7 +34,7 @@
         <img class="welcome-photo" src="img/welcome@3x.png" width="459" height="353" alt="Добро пожаловать в Седону" />
         <!-- <img class="polygon" src="img/polygon.png" width="1200" height="59" alt="Красивый вид Седоны"/>-->
       </section>
-      <section>
+      <section class="benefits">
 
         <h2>Седона - небольшой городок в штате Аризона,<br>
           заслуживающий большего!</h2>
@@ -41,50 +42,58 @@
         <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
 
         <ul>
+
           <li>
-            <p>Настоящий городок</p>
+            <p class="benefits-list">Настоящий городок</p>
             <p class="benefits-description"> — №1 —</p>
             <p class="benefits-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             <img src="img/feature-picture@3x.jpg" width="800" height="256" alt="Фотография Седоны с флагом" />
+
             <ul>
-              <li>
+              <li class="benefits-item">
                 <img class="icon-image" src="img/icon-1.svg" width="75" height="72" alt="Иконка жилья" />
-                <p class="benefits">Жильё</p>
+                <p>Жильё</p>
                 <p class="benefits-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
               </li>
-              <li>
+              <li class="benefits-item">
                 <img class="icon-image" src="img/icon-3.svg" width="74" height="70" alt="Иконка еды" />
-                <p class="benefits">Еда</p>
+                <p>Еда</p>
                 <p class="benefits-description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
               </li>
-              <li>
+              <li class="benefits-item">
                 <img class="icon-image" src="img/icon-2.svg" width="64" height="76" alt="Иконка сувениров" />
-                <p class="benefits">Сувениры</p>
+                <p>Сувениры</p>
                 <p class="benefits-description">Не только китайского, но и местного производства!</p>
               </li>
             </ul>
+
           </li>
-          <li>
+
+          <li class="benefits-list">
             <img src="img/layer-5@3x.jpg" width="800" height="256" alt="Фотография Моста Дьявола" />
-            <p>Там есть Мост дьявола</p>
+            <p class="benefits-list">Там есть<br> Мост дьявола</p>
             <p class="benefits-description">— №2 —</p>
             <p class="benefits-description">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </li>
-          <li>
-            <p class="benefits">Небольшая площадь</P>
+
+          <li class="benefits-list">
+            <p class="benefits-list">Небольшая площадь</P>
             <p class="benefits-description">— №3 —</p>
             <p class="benefits-description">Все достопримечательности находятся очень близко</p>
           </li>
-          <li>
-            <p class="benefits">Красивая дорога</p>
+
+          <li class="benefits-list">
+            <p class="benefits-list">Красивая дорога</p>
             <p class="benefits-description">— №4 —</p>
             <p class="benefits-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
-          <li>
-            <p class="benefits">Мало туристов</p>
+
+          <li class="benefits-list">
+            <p class="benefits-list">Мало туристов</p>
             <p class="benefits-description">— №5 —</p>
             <p class="benefits-description">Большинство едет в гранд каньон и толпится там</p>
           </li>
+
         </ul>
 
       </section>
@@ -122,8 +131,7 @@
             <button type="button">+</button>
           </p>
 
-          <button type="submit" class="blue-button">Найти
-          </button>
+          <button type="submit" class="blue-button">Найти</button>
         </form>
       </section>
 
@@ -133,7 +141,7 @@
       </section>
 
     </main>
-    <footer>
+    <footer class="main-footer">
       <p class="VISITSEDONA">#VISITSEDONA</p>
       <ul class="social-buttons">
         <li>
@@ -162,6 +170,7 @@
         </p>
       </section>
     </footer>
+
   </div>
 
 </body>
