@@ -116,6 +116,16 @@ ul.site-navigation {
   color: #766357;
 }
 
+.background-photo {
+  background-color:  #000000;
+  background-image: url("img/polygon.png");
+  background-position: center;
+  background-clip: padding-box;
+  background-origin: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 li.benefits-list:nth-child(1) {
   color: #ffffff;
   background-color: #81b3d2;
