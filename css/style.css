@@ -136,7 +136,7 @@ li.benefits-list:nth-child(2) {
   background-color: #81b3d2;
 }
 
-li+.benefits-item {
+li + .benefits-item {
   color: #333333;
   background-color: #f2f2f2;
 }
@@ -210,7 +210,7 @@ li+.benefits-item {
   vertical-align: middle;
   line-height: 26px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 1200px;
   height: 120px;
 }
@@ -218,6 +218,12 @@ li+.benefits-item {
 .social-buttons {
   list-style: none;
   display: flex;
+}
+
+.social-buttons li {
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
 }
 
 .website-by {}
